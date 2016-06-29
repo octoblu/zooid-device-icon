@@ -14,6 +14,7 @@ npm install --save zooid-device-icon
 | Prop      | Type   | Default | Description                          |
 | ----------| -------| --------| -------------------------------------|
 | className | string |         | Additional css classes to merge into the component |
+| size      | enum   |"regular"| Options: small, regular, large |
 
 
 ## Example
