@@ -1,6 +1,6 @@
 {
   "name": "zooid-device-icon",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "DeviceIcon",
   "main": "dist/bundle.js",
   "scripts": {
