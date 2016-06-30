@@ -4,7 +4,6 @@ node_js:
 branches:
   only:
   - /^v[0-9]/
-  - master
 addons:
   code_climate:
     repo_token: 2f63066f180f268aae0b901921cfe569492edf1cd4376f0f0c60c43d655b4786

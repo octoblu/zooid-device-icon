@@ -11,5 +11,9 @@ storiesOf('DeviceIcon', module)
     <DeviceIcon type="device:wemo" />
   ))
   .add('with type and size', () => (
-    <DeviceIcon type="device:wemo" size="small" />
+    <div>
+      <DeviceIcon type="device:wemo" size="small" />
+      <DeviceIcon type="device:wemo" size="regular" />
+      <DeviceIcon type="device:wemo" size="large" />
+    </div>
   ))
