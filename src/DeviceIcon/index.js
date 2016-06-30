@@ -6,10 +6,10 @@ import styles from './styles.css'
 const propTypes = {
   className: PropTypes.string,
   type: PropTypes.string.isRequired,
-  size: PropTypes.oneOf(['small', 'regular', 'large'])
+  size: PropTypes.oneOf(['small', 'regular', 'large']),
 }
 const defaultProps = {
-  size: 'regular'
+  size: 'regular',
 }
 
 const DeviceIcon = ({ className, type, size }) => {
