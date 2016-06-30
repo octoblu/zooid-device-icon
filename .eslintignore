@@ -1,6 +1,0 @@
-dist
-lib
-test
-.storybook
-node_modules
-webpack.config.*
