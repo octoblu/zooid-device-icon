@@ -1,9 +1,12 @@
 # zooid-device-icon
 
 [![Build Status](https://travis-ci.org/octoblu/zooid-device-icon.svg?branch=master)](https://travis-ci.org/octoblu/zooid-device-icon)
-[![npm version](https://badge.fury.io/js/zooid-device-icon.svg)](http://badge.fury.io/js/zooid-device-icon)
-[![Code Climate](https://codeclimate.com/github/octoblu/zooid-device-icon.png)](https://codeclimate.com/github/octoblu/zooid-device-icon)
+[![Test Coverage](https://codecov.io/gh/octoblu/zooid-device-icon/branch/master/graph/badge.svg)](https://codecov.io/gh/octoblu/zooid-device-icon)
+[![Dependency status](http://img.shields.io/david/octoblu/zooid-device-icon.svg?style=flat)](https://david-dm.org/octoblu/zooid-device-icon)
+[![devDependency Status](http://img.shields.io/david/dev/octoblu/zooid-device-icon.svg?style=flat)](https://david-dm.org/octoblu/zooid-device-icon#info=devDependencies)
 [![Slack Status](http://community-slack.octoblu.com/badge.svg)](http://community-slack.octoblu.com)
+
+[![NPM](https://nodei.co/npm/zooid-device-icon.svg?style=flat)](https://npmjs.org/package/zooid-device-icon)
 
 ## Install
 ```
