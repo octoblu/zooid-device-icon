@@ -17,13 +17,21 @@ describe('<DeviceIcon />', () => {
     expect(sut).to.be.empty
   })
 
-  describe('when given a type', () => {
-    it('should render the device icon', () => {
-      const sut = shallow(<DeviceIcon type="device:wemo" />)
-      expect(sut.find('img').first()).to.have.prop('src')
+  describe('when given a thing with a logo and no device type', () => {
+    it('should set the logo in the img src', () => {
+      const sut = shallow(<DeviceIcon logo={'https://awesomeimages.org'} />)
+      const imageSrc = sut.find('img').at(0).prop('src')
+      expect(imageSrc).to.deep.equal('https://awesomeimages.org')
     })
   })
 
+  describe('when given a thing with a device type and no logo', () => {
+    it('should set the logo in the img src', () => {
+      const sut = shallow(<DeviceIcon type={'device:button'} />)
+      const imageSrc = sut.find('img').at(0).prop('src')
+      expect(imageSrc).to.deep.equal('https://icons.octoblu.com/device/button.svg')
+    })
+  })
   describe('when given a size prop', () => {
     describe('when size is small', () => {
       it('should render a small icon', () => {
