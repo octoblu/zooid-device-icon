@@ -7,10 +7,6 @@ addons:
     repo_token: 2f63066f180f268aae0b901921cfe569492edf1cd4376f0f0c60c43d655b4786
 before_deploy:
 - npm run build
-before_script:
-- npm install -g codeclimate-test-reporter
-after_script:
-- codeclimate-test-reporter < coverage/lcov.info
 deploy:
   provider: npm
   email: serveradmin@octoblu.com
